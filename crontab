@@ -1,0 +1,6 @@
+# Execute the monitoring script every 10 minutes.
+# Reddit rate-limits its search API calls, but
+# every 10 minutes should be fine.
+
+*/10 * * * * /usr/local/bin/php /path/to/index.php
+
